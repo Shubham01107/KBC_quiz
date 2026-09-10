@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>KBC Quiz</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="game-container">
+
+        <header class="top-bar">
+
+            <div class="logo">
+                KBC
+            </div>
+
+            <div class="question-number">
+                Question <span id="questionNumber">1</span>/10
+            </div>
+
+            <div class="timer">
+                <span id="timer">30</span>
+            </div>
+
+        </header>
+
+
+        <main class="game-area">
+
+            <section class="question-section">
+
+                <div class="question-box">
+                    <p id="question">
+                        Question will appear here
+                    </p>
+                </div>
+
+
+                <div class="options">
+
+                    <button class="option" id="optionA">
+                        <span>A</span>
+                        <p></p>
+                    </button>
+
+                    <button class="option" id="optionB">
+                        <span>B</span>
+                        <p></p>
+                    </button>
+
+                    <button class="option" id="optionC">
+                        <span>C</span>
+                        <p></p>
+                    </button>
+
+                    <button class="option" id="optionD">
+                        <span>D</span>
+                        <p></p>
+                    </button>
+
+                </div>
+
+            </section>
+
+
+            <aside class="money-section">
+
+                <h2>PRIZE</h2>
+
+                <div id="moneyLadder">
+
+                    <div>₹10,00,000</div>
+                    <div>₹5,00,000</div>
+                    <div>₹3,20,000</div>
+                    <div>₹1,60,000</div>
+                    <div>₹80,000</div>
+                    <div>₹40,000</div>
+                    <div>₹20,000</div>
+                    <div>₹10,000</div>
+                    <div>₹5,000</div>
+                    <div>₹1,000</div>
+
+                </div>
+
+            </aside>
+
+        </main>
+
+
+        <div class="lifelines">
+
+            <button id="fifty">
+                50 : 50
+            </button>
+
+            <button id="audience">
+                👥 Audience
+            </button>
+
+            <button id="phone">
+                📞 Phone a Friend
+            </button>
+
+            <button id="expert">
+                🧠 Ask Expert
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- Lock Answer Modal -->
+
+    <div class="modal hidden" id="lockModal">
+
+        <div class="modal-box">
+
+            <h2>Lock kiya jaye?</h2>
+
+            <p id="selectedAnswer">
+                You selected option A
+            </p>
+
+            <div class="modal-buttons">
+
+                <button id="lockYes">
+                    🔒 Yes, Lock It
+                </button>
+
+                <button id="lockNo">
+                    ← Go Back
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Result Modal -->
+
+    <div class="modal hidden" id="resultModal">
+
+        <div class="modal-box">
+
+            <h2 id="resultTitle">
+                Correct!
+            </h2>
+
+            <p id="resultMessage">
+                Congratulations!
+            </p>
+
+            <button id="nextQuestion">
+                Next Question →
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
