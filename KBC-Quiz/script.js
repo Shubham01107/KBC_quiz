@@ -1,134 +1,119 @@
-// ==========================================
-// KBC QUIZ - COMPLETE JAVASCRIPT
-// 100% HTML + CSS + JavaScript
-// ==========================================
-
-
-// ==========================================
-// QUESTIONS
-// ==========================================
+// ===============================
+// KBC QUIZ - 20 QUESTIONS
+// ===============================
 
 const questions = [
-
     {
-        question: "Who is known as the Father of the Nation in India?",
-        options: [
-            "Jawaharlal Nehru",
-            "Sardar Patel",
-            "Mahatma Gandhi",
-            "Subhash Chandra Bose"
-        ],
-        answer: 2
-    },
-
-    {
-        question: "Which planet is known as the Red Planet?",
-        options: [
-            "Earth",
-            "Mars",
-            "Jupiter",
-            "Venus"
-        ],
-        answer: 1
-    },
-
-    {
-        question: "Who wrote the Indian National Anthem?",
-        options: [
-            "Rabindranath Tagore",
-            "Bankim Chandra Chattopadhyay",
-            "Sarojini Naidu",
-            "Subhash Chandra Bose"
-        ],
+        question: "Who was the first Indian to win an individual Olympic gold medal?",
+        options: ["Abhinav Bindra", "Neeraj Chopra", "Sushil Kumar", "Rajyavardhan Singh Rathore"],
         answer: 0
     },
-
     {
-        question: "Which is the largest ocean in the world?",
-        options: [
-            "Atlantic Ocean",
-            "Indian Ocean",
-            "Arctic Ocean",
-            "Pacific Ocean"
-        ],
-        answer: 3
-    },
-
-    {
-        question: "How many players are there in a cricket team?",
-        options: [
-            "9",
-            "11",
-            "10",
-            "12"
-        ],
+        question: "Which element has the atomic number 79?",
+        options: ["Silver", "Gold", "Platinum", "Copper"],
         answer: 1
     },
-
     {
-        question: "Which gas is most abundant in Earth's atmosphere?",
-        options: [
-            "Oxygen",
-            "Carbon Dioxide",
-            "Nitrogen",
-            "Hydrogen"
-        ],
-        answer: 2
-    },
-
-    {
-        question: "Which is the smallest prime number?",
-        options: [
-            "2",
-            "1",
-            "3",
-            "0"
-        ],
+        question: "The Battle of Plassey was fought in which year?",
+        options: ["1757", "1761", "1857", "1748"],
         answer: 0
     },
-
     {
-        question: "Which Indian city is known as the Pink City?",
-        options: [
-            "Udaipur",
-            "Jodhpur",
-            "Jaipur",
-            "Bikaner"
-        ],
-        answer: 2
+        question: "Which is the largest desert in the world?",
+        options: ["Gobi Desert", "Sahara Desert", "Arabian Desert", "Antarctic Desert"],
+        answer: 3
     },
-
     {
-        question: "What is the chemical symbol for Gold?",
-        options: [
-            "Ag",
-            "Au",
-            "Fe",
-            "Gd"
-        ],
+        question: "Which programming language was created by James Gosling?",
+        options: ["Python", "Java", "C++", "JavaScript"],
         answer: 1
     },
-
     {
-        question: "Which is the longest river in India?",
-        options: [
-            "Yamuna",
-            "Godavari",
-            "Narmada",
-            "Ganga"
-        ],
-        answer: 3
+        question: "Which Indian state has the longest coastline?",
+        options: ["Tamil Nadu", "Maharashtra", "Gujarat", "Andhra Pradesh"],
+        answer: 2
+    },
+    {
+        question: "Who discovered the law of electromagnetic induction?",
+        options: ["Michael Faraday", "Isaac Newton", "James Watt", "Albert Einstein"],
+        answer: 0
+    },
+    {
+        question: "Which planet has the largest number of known moons in our Solar System?",
+        options: ["Jupiter", "Saturn", "Uranus", "Neptune"],
+        answer: 1
+    },
+    {
+        question: "Which article of the Indian Constitution deals with the Right to Life and Personal Liberty?",
+        options: ["Article 14", "Article 19", "Article 21", "Article 32"],
+        answer: 2
+    },
+    {
+        question: "Which gas is mainly responsible for the greenhouse effect among the following?",
+        options: ["Oxygen", "Carbon dioxide", "Nitrogen", "Argon"],
+        answer: 1
+    },
+    {
+        question: "Who wrote the book 'The Discovery of India'?",
+        options: ["Mahatma Gandhi", "B. R. Ambedkar", "Jawaharlal Nehru", "Sardar Patel"],
+        answer: 2
+    },
+    {
+        question: "Which is the deepest ocean trench in the world?",
+        options: ["Java Trench", "Tonga Trench", "Mariana Trench", "Puerto Rico Trench"],
+        answer: 2
+    },
+    {
+        question: "In computer science, what does CPU stand for?",
+        options: ["Central Processing Unit", "Computer Processing Utility", "Central Program Unit", "Control Processing Unit"],
+        answer: 0
+    },
+    {
+        question: "Which Mughal emperor built the Buland Darwaza?",
+        options: ["Shah Jahan", "Akbar", "Aurangzeb", "Humayun"],
+        answer: 1
+    },
+    {
+        question: "Which blood group is known as the universal donor for red blood cells?",
+        options: ["AB positive", "O positive", "O negative", "AB negative"],
+        answer: 2
+    },
+    {
+        question: "Which Indian space mission successfully demonstrated a soft landing near the Moon's south polar region?",
+        options: ["Chandrayaan-1", "Chandrayaan-2", "Chandrayaan-3", "Mangalyaan"],
+        answer: 2
+    },
+    {
+        question: "Who is known as the father of the Indian space programme?",
+        options: ["Vikram Sarabhai", "Homi J. Bhabha", "Satish Dhawan", "A. P. J. Abdul Kalam"],
+        answer: 0
+    },
+    {
+        question: "Which mathematical constant is approximately equal to 2.718?",
+        options: ["Pi", "Phi", "Euler's number", "Square root of 2"],
+        answer: 2
+    },
+    {
+        question: "Which country gifted the Statue of Liberty to the United States?",
+        options: ["United Kingdom", "France", "Germany", "Italy"],
+        answer: 1
+    },
+    {
+        question: "Which is the longest river that flows entirely within India?",
+        options: ["Ganga", "Godavari", "Yamuna", "Narmada"],
+        answer: 1
     }
-
 ];
 
 
-// ==========================================
-// PRIZE MONEY
-// ==========================================
+// ===============================
+// PRIZE MONEY - 20 LEVELS
+// ===============================
 
 const prizeMoney = [
     "₹1,000",
+    "₹2,000",
+    "₹3,000",
     "₹5,000",
     "₹10,000",
     "₹20,000",
@@ -136,34 +121,40 @@ const prizeMoney = [
     "₹80,000",
     "₹1,60,000",
     "₹3,20,000",
-    "₹5,00,000",
-    "₹10,00,000"
+    "₹6,40,000",
+    "₹12,50,000",
+    "₹25,00,000",
+    "₹50,00,000",
+    "₹75,00,000",
+    "₹1,00,00,000",
+    "₹2,00,00,000",
+    "₹3,00,00,000",
+    "₹5,00,00,000",
+    "₹7,00,00,000"
 ];
 
 
-// ==========================================
-// GAME VARIABLES
-// ==========================================
+// ===============================
+// VARIABLES
+// ===============================
 
 let currentQuestion = 0;
-let selectedOption = null;
-let timer = 30;
-let timerInterval = null;
+let selectedAnswer = null;
+let timer;
+let timeLeft = 30;
 
-let fiftyUsed = false;
-let audienceUsed = false;
-let phoneUsed = false;
-let expertUsed = false;
-
-let gameLocked = false;
+let usedFifty = false;
+let usedAudience = false;
+let usedPhone = false;
+let usedExpert = false;
 
 
-// ==========================================
+// ===============================
 // GET HTML ELEMENTS
-// ==========================================
+// ===============================
 
+const questionNumber = document.getElementById("questionNumber");
 const questionElement = document.getElementById("question");
-const questionNumberElement = document.getElementById("questionNumber");
 const timerElement = document.getElementById("timer");
 
 const optionButtons = [
@@ -172,13 +163,6 @@ const optionButtons = [
     document.getElementById("optionC"),
     document.getElementById("optionD")
 ];
-
-const optionLabels = ["A", "B", "C", "D"];
-
-const fiftyButton = document.getElementById("fifty");
-const audienceButton = document.getElementById("audience");
-const phoneButton = document.getElementById("phone");
-const expertButton = document.getElementById("expert");
 
 const lockModal = document.getElementById("lockModal");
 const selectedAnswerElement = document.getElementById("selectedAnswer");
@@ -189,1090 +173,850 @@ const lockNo = document.getElementById("lockNo");
 const resultModal = document.getElementById("resultModal");
 const resultTitle = document.getElementById("resultTitle");
 const resultMessage = document.getElementById("resultMessage");
-const nextQuestionButton = document.getElementById("nextQuestion");
+const nextQuestion = document.getElementById("nextQuestion");
+
+const fiftyButton = document.getElementById("fifty");
+const audienceButton = document.getElementById("audience");
+const phoneButton = document.getElementById("phone");
+const expertButton = document.getElementById("expert");
 
 const moneyLadder = document.getElementById("moneyLadder");
 
 
-// ==========================================
-// CREATE EXTRA STYLES FOR JAVASCRIPT MODALS
-// ==========================================
+// ===============================
+// CREATE 20-LEVEL MONEY LADDER
+// ===============================
 
-const extraStyles = document.createElement("style");
+function createMoneyLadder() {
 
-extraStyles.innerHTML = `
+    moneyLadder.innerHTML = "";
 
-    .js-overlay {
-        position: fixed;
-        inset: 0;
-        background: rgba(0, 0, 20, 0.82);
-        backdrop-filter: blur(10px);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        z-index: 9999;
-        animation: fadeInJS 0.3s ease;
+    for (let i = prizeMoney.length - 1; i >= 0; i--) {
+
+        const prize = document.createElement("div");
+
+        prize.className = "money-level";
+        prize.dataset.level = i;
+
+        prize.textContent = `${i + 1}. ${prizeMoney[i]}`;
+
+        moneyLadder.appendChild(prize);
     }
-
-    .js-card {
-        width: min(520px, 90%);
-        background:
-            linear-gradient(145deg, #101f52, #060d27);
-        border: 2px solid #2196ff;
-        border-radius: 25px;
-        padding: 30px;
-        text-align: center;
-        box-shadow:
-            0 0 30px rgba(0, 153, 255, 0.35),
-            0 0 80px rgba(0, 80, 255, 0.15);
-        animation: popupJS 0.4s ease;
-        color: white;
-    }
-
-    .js-card h2 {
-        margin-bottom: 15px;
-        color: #ffd700;
-        font-size: 28px;
-    }
-
-    .js-card p {
-        color: #dbe7ff;
-        line-height: 1.6;
-    }
-
-    .js-close {
-        margin-top: 22px;
-        border: none;
-        padding: 12px 28px;
-        border-radius: 25px;
-        background: linear-gradient(90deg, #006eff, #00b7ff);
-        color: white;
-        font-weight: bold;
-        cursor: pointer;
-        font-size: 16px;
-    }
-
-    .poll-container {
-        display: flex;
-        justify-content: space-around;
-        align-items: flex-end;
-        height: 210px;
-        margin-top: 20px;
-    }
-
-    .poll-item {
-        width: 18%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 8px;
-    }
-
-    .poll-bar {
-        width: 100%;
-        max-width: 55px;
-        min-height: 20px;
-        background: linear-gradient(to top, #007bff, #00d4ff);
-        border-radius: 8px 8px 0 0;
-        box-shadow: 0 0 15px rgba(0, 174, 255, 0.6);
-        transition: height 1s ease;
-    }
-
-    .poll-percent {
-        color: #ffd700;
-        font-weight: bold;
-    }
-
-    .phone-circle {
-        width: 90px;
-        height: 90px;
-        margin: 10px auto 20px;
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 40px;
-        background: #061b45;
-        border: 3px solid #00aaff;
-        box-shadow: 0 0 25px rgba(0, 170, 255, 0.6);
-        animation: phonePulseJS 1.2s infinite;
-    }
-
-    .expert-avatar {
-        width: 90px;
-        height: 90px;
-        margin: 5px auto 20px;
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 42px;
-        background: linear-gradient(145deg, #302070, #091a48);
-        border: 3px solid #b56cff;
-        box-shadow: 0 0 25px rgba(181, 108, 255, 0.6);
-    }
-
-    .lifeline-used {
-        opacity: 0.35 !important;
-        pointer-events: none !important;
-        filter: grayscale(1);
-    }
-
-    .option-hidden {
-        opacity: 0.12 !important;
-        pointer-events: none !important;
-        transform: scale(0.96);
-    }
-
-    .option-selected {
-        background: linear-gradient(
-            90deg,
-            rgba(255, 166, 0, 0.95),
-            rgba(255, 208, 0, 0.65)
-        ) !important;
-
-        border-color: #ffd700 !important;
-        box-shadow: 0 0 25px rgba(255, 215, 0, 0.7) !important;
-    }
-
-    .option-correct {
-        background: linear-gradient(
-            90deg,
-            #087f35,
-            #14c45d
-        ) !important;
-
-        border-color: #36ff82 !important;
-        box-shadow: 0 0 30px rgba(30, 255, 110, 0.8) !important;
-        animation: correctJS 0.6s ease;
-    }
-
-    .option-wrong {
-        background: linear-gradient(
-            90deg,
-            #8a1010,
-            #e01c1c
-        ) !important;
-
-        border-color: #ff4141 !important;
-        box-shadow: 0 0 30px rgba(255, 50, 50, 0.8) !important;
-        animation: wrongJS 0.5s ease;
-    }
-
-    .money-active {
-        transform: scale(1.08);
-        background: linear-gradient(
-            90deg,
-            #ffd700,
-            #ff9d00
-        ) !important;
-        color: #06102b !important;
-        border-radius: 8px;
-        padding: 5px 10px;
-        box-shadow: 0 0 20px rgba(255, 215, 0, 0.7);
-    }
-
-    .money-won {
-        color: #55ff9a !important;
-    }
-
-    .winner-screen h1 {
-        font-size: 42px;
-        color: #ffd700;
-        margin-bottom: 15px;
-    }
-
-    .winner-money {
-        font-size: 40px;
-        color: #55ff9a;
-        font-weight: 900;
-        margin: 20px 0;
-        text-shadow: 0 0 20px rgba(85,255,154,0.7);
-    }
-
-    .restart-btn {
-        margin-top: 15px;
-        padding: 14px 35px;
-        border: none;
-        border-radius: 30px;
-        background: linear-gradient(90deg, #ffb000, #ffd700);
-        color: #10152f;
-        font-size: 17px;
-        font-weight: 900;
-        cursor: pointer;
-    }
-
-    .confetti-piece {
-        position: fixed;
-        top: -20px;
-        width: 9px;
-        height: 16px;
-        z-index: 10001;
-        animation: confettiFall 3s linear forwards;
-    }
-
-    @keyframes fadeInJS {
-        from { opacity: 0; }
-        to { opacity: 1; }
-    }
-
-    @keyframes popupJS {
-        from {
-            opacity: 0;
-            transform: scale(0.7) translateY(30px);
-        }
-
-        to {
-            opacity: 1;
-            transform: scale(1) translateY(0);
-        }
-    }
-
-    @keyframes correctJS {
-        0%, 100% { transform: scale(1); }
-        50% { transform: scale(1.04); }
-    }
-
-    @keyframes wrongJS {
-        0%, 100% { transform: translateX(0); }
-        25% { transform: translateX(-10px); }
-        75% { transform: translateX(10px); }
-    }
-
-    @keyframes phonePulseJS {
-        0%, 100% {
-            box-shadow: 0 0 20px rgba(0,170,255,0.5);
-        }
-
-        50% {
-            box-shadow: 0 0 45px rgba(0,170,255,1);
-        }
-    }
-
-    @keyframes confettiFall {
-        to {
-            transform:
-                translateY(110vh)
-                rotate(720deg);
-            opacity: 0;
-        }
-    }
-
-`;
-
-document.head.appendChild(extraStyles);
+}
 
 
-// ==========================================
+// ===============================
 // LOAD QUESTION
-// ==========================================
+// ===============================
 
 function loadQuestion() {
 
-    clearInterval(timerInterval);
+    clearInterval(timer);
 
-    selectedOption = null;
-    gameLocked = false;
+    selectedAnswer = null;
 
     const current = questions[currentQuestion];
 
-    // Question number
-    questionNumberElement.textContent = currentQuestion + 1;
+    questionNumber.textContent =
+        `Question ${currentQuestion + 1} / ${questions.length}`;
 
-    // Question
     questionElement.textContent = current.question;
 
-    // Options
+
     optionButtons.forEach((button, index) => {
 
         button.classList.remove(
-            "option-selected",
-            "option-correct",
-            "option-wrong",
-            "option-hidden"
+            "selected",
+            "correct",
+            "wrong",
+            "disabled"
         );
 
-        button.disabled = false;
+        button.style.display = "flex";
 
-        const textElement = button.querySelector("p");
+        const text = button.querySelector("p");
 
-        if (textElement) {
-            textElement.textContent = current.options[index];
+        if (text) {
+            text.textContent = current.options[index];
         }
     });
 
-    // Update prize ladder
-    updatePrizeLadder();
 
-    // Reset timer
+    updateMoneyLadder();
+
     startTimer();
 }
 
 
-// ==========================================
+// ===============================
 // TIMER
-// ==========================================
+// ===============================
 
 function startTimer() {
 
-    clearInterval(timerInterval);
+    timeLeft = 30;
 
-    timer = 30;
-    timerElement.textContent = timer;
+    timerElement.textContent = `⏱ ${timeLeft}`;
 
-    timerInterval = setInterval(() => {
+    timer = setInterval(() => {
 
-        timer--;
+        timeLeft--;
 
-        timerElement.textContent = timer;
+        timerElement.textContent = `⏱ ${timeLeft}`;
 
-        if (timer <= 10) {
-            timerElement.style.color = "#ff4141";
-        } else {
-            timerElement.style.color = "";
+        if (timeLeft <= 10) {
+            timerElement.classList.add("danger");
         }
 
-        if (timer <= 0) {
+        if (timeLeft <= 0) {
 
-            clearInterval(timerInterval);
+            clearInterval(timer);
 
-            timeUp();
-
+            timeOut();
         }
 
     }, 1000);
 }
 
 
-// ==========================================
-// TIME UP
-// ==========================================
+// ===============================
+// TIME OUT
+// ===============================
 
-function timeUp() {
-
-    if (gameLocked) return;
-
-    gameLocked = true;
+function timeOut() {
 
     optionButtons.forEach(button => {
-        button.disabled = true;
+        button.classList.add("disabled");
     });
 
-    showResult(
-        "TIME UP!",
-        "Your 30 seconds are over.",
-        false
-    );
-}
-
-
-// ==========================================
-// OPTION CLICK
-// ==========================================
-
-optionButtons.forEach((button, index) => {
-
-    button.addEventListener("click", () => {
-
-        if (gameLocked) return;
-
-        selectedOption = index;
-
-        // Remove old selection
-        optionButtons.forEach(btn => {
-            btn.classList.remove("option-selected");
-        });
-
-        // Highlight selected option
-        button.classList.add("option-selected");
-
-        // Show selected answer
-        selectedAnswerElement.textContent =
-            `${optionLabels[index]}. ${questions[currentQuestion].options[index]}`;
-
-        // Open lock modal
-        lockModal.style.display = "flex";
-    });
-
-});
-
-
-// ==========================================
-// LOCK NO
-// ==========================================
-
-lockNo.addEventListener("click", () => {
-
-    lockModal.style.display = "none";
-
-    selectedOption = null;
-
-    optionButtons.forEach(button => {
-        button.classList.remove("option-selected");
-    });
-
-});
-
-
-// ==========================================
-// LOCK YES
-// ==========================================
-
-lockYes.addEventListener("click", () => {
-
-    if (selectedOption === null) return;
-
-    lockModal.style.display = "none";
-
-    gameLocked = true;
-
-    clearInterval(timerInterval);
-
-    optionButtons.forEach(button => {
-        button.disabled = true;
-    });
-
-    // Small dramatic delay
-    setTimeout(() => {
-
-        const correctAnswer =
-            questions[currentQuestion].answer;
-
-        if (selectedOption === correctAnswer) {
-
-            optionButtons[selectedOption]
-                .classList.remove("option-selected");
-
-            optionButtons[selectedOption]
-                .classList.add("option-correct");
-
-            showResult(
-                "CORRECT! 🎉",
-                `Excellent! You have won ${prizeMoney[currentQuestion]}.`,
-                true
-            );
-
-        } else {
-
-            optionButtons[selectedOption]
-                .classList.remove("option-selected");
-
-            optionButtons[selectedOption]
-                .classList.add("option-wrong");
-
-            optionButtons[correctAnswer]
-                .classList.add("option-correct");
-
-            showResult(
-                "WRONG ANSWER! ❌",
-                `The correct answer was ${optionLabels[correctAnswer]}. ${questions[currentQuestion].options[correctAnswer]}`,
-                false
-            );
-
-        }
-
-    }, 800);
-
-});
-
-
-// ==========================================
-// RESULT MODAL
-// ==========================================
-
-function showResult(title, message, correct) {
-
-    resultTitle.textContent = title;
-    resultMessage.textContent = message;
-
-    if (correct) {
-
-        nextQuestionButton.textContent =
-            currentQuestion === questions.length - 1
-                ? "🏆 See Final Result"
-                : "Next Question ➜";
-
-    } else {
-
-        nextQuestionButton.textContent =
-            "Finish Game";
-
-    }
+    resultTitle.textContent = "⏰ Time Up!";
+    resultMessage.textContent =
+        `Time is over. You won ${currentQuestion > 0 ? prizeMoney[currentQuestion - 1] : "₹0"}.`;
 
     resultModal.style.display = "flex";
 }
 
 
-// ==========================================
-// NEXT QUESTION
-// ==========================================
+// ===============================
+// OPTION SELECTION
+// ===============================
 
-nextQuestionButton.addEventListener("click", () => {
+optionButtons.forEach((button, index) => {
+
+    button.addEventListener("click", () => {
+
+        if (button.classList.contains("disabled")) {
+            return;
+        }
+
+        selectedAnswer = index;
+
+        optionButtons.forEach(btn => {
+            btn.classList.remove("selected");
+        });
+
+        button.classList.add("selected");
+
+        const selectedText =
+            questions[currentQuestion].options[index];
+
+        selectedAnswerElement.textContent =
+            `Your Answer: ${String.fromCharCode(65 + index)}. ${selectedText}`;
+
+        lockModal.style.display = "flex";
+    });
+});
+
+
+// ===============================
+// LOCK YES
+// ===============================
+
+lockYes.addEventListener("click", () => {
+
+    lockModal.style.display = "none";
+
+    clearInterval(timer);
+
+    checkAnswer();
+});
+
+
+// ===============================
+// LOCK NO
+// ===============================
+
+lockNo.addEventListener("click", () => {
+
+    lockModal.style.display = "none";
+
+    selectedAnswer = null;
+
+    optionButtons.forEach(button => {
+        button.classList.remove("selected");
+    });
+});
+
+
+// ===============================
+// CHECK ANSWER
+// ===============================
+
+function checkAnswer() {
+
+    const correctAnswer =
+        questions[currentQuestion].answer;
+
+    optionButtons.forEach((button, index) => {
+
+        if (index === correctAnswer) {
+            button.classList.add("correct");
+        }
+
+        if (
+            index === selectedAnswer &&
+            selectedAnswer !== correctAnswer
+        ) {
+            button.classList.add("wrong");
+        }
+
+    });
+
+
+    if (selectedAnswer === correctAnswer) {
+
+        resultTitle.textContent = "🎉 Correct Answer!";
+
+        resultMessage.textContent =
+            `Congratulations! You won ${prizeMoney[currentQuestion]}.`;
+
+        updateMoneyLadder(true);
+
+    } else {
+
+        resultTitle.textContent = "❌ Wrong Answer!";
+
+        resultMessage.textContent =
+            `The correct answer was ${String.fromCharCode(65 + correctAnswer)}. ${questions[currentQuestion].options[correctAnswer]}`;
+
+        resultMessage.textContent +=
+            ` You take home ${currentQuestion > 0 ? prizeMoney[currentQuestion - 1] : "₹0"}.`;
+    }
+
+
+    resultModal.style.display = "flex";
+}
+
+
+// ===============================
+// NEXT QUESTION
+// ===============================
+
+nextQuestion.addEventListener("click", () => {
 
     resultModal.style.display = "none";
 
-    const correctAnswer =
-        questions[currentQuestion].answer;
-
-    // If answer was wrong
-    if (selectedOption !== correctAnswer) {
-
-        gameOver(
-            currentQuestion > 0
-                ? prizeMoney[currentQuestion - 1]
-                : "₹0"
-        );
-
+    if (
+        selectedAnswer !== questions[currentQuestion].answer
+    ) {
+        gameOver();
         return;
     }
 
-    // Last question
-    if (currentQuestion === questions.length - 1) {
-
-        winnerScreen();
-
-        return;
-    }
 
     currentQuestion++;
 
-    loadQuestion();
+    if (currentQuestion >= questions.length) {
 
+        winnerScreen();
+
+    } else {
+
+        loadQuestion();
+    }
 });
 
 
-// ==========================================
-// UPDATE PRIZE LADDER
-// ==========================================
+// ===============================
+// UPDATE MONEY LADDER
+// ===============================
 
-function updatePrizeLadder() {
+function updateMoneyLadder(correct = false) {
 
-    const moneyItems =
-        moneyLadder.querySelectorAll("div");
+    const levels =
+        document.querySelectorAll(".money-level");
 
-    moneyItems.forEach((item, index) => {
+    levels.forEach(level => {
 
-        item.classList.remove(
-            "money-active",
-            "money-won"
-        );
+        level.classList.remove("active");
 
+        const levelNumber =
+            Number(level.dataset.level);
+
+        if (levelNumber === currentQuestion) {
+            level.classList.add("active");
+        }
     });
 
-    /*
-       HTML ladder is displayed from highest to lowest.
-       Therefore we map the current prize accordingly.
-    */
 
-    const reversedIndex =
-        prizeMoney.length - 1 - currentQuestion;
+    if (correct && currentQuestion > 0) {
 
-    if (moneyItems[reversedIndex]) {
+        levels.forEach(level => {
 
-        moneyItems[reversedIndex]
-            .classList.add("money-active");
+            const levelNumber =
+                Number(level.dataset.level);
 
+            if (levelNumber === currentQuestion - 1) {
+                level.classList.add("won");
+            }
+
+        });
     }
 }
 
 
-// ==========================================
-// 50 : 50 LIFELINE
-// ==========================================
+// ===============================
+// 50:50 LIFELINE
+// ===============================
 
 fiftyButton.addEventListener("click", () => {
 
-    if (fiftyUsed || gameLocked) return;
+    if (usedFifty) return;
 
-    fiftyUsed = true;
+    usedFifty = true;
 
-    fiftyButton.classList.add("lifeline-used");
+    fiftyButton.classList.add("used");
 
     const correctAnswer =
         questions[currentQuestion].answer;
 
-    let wrongOptions = [];
+    let wrongOptions =
+        [0, 1, 2, 3].filter(index => index !== correctAnswer);
 
-    for (let i = 0; i < 4; i++) {
+    wrongOptions =
+        wrongOptions.sort(() => Math.random() - 0.5);
 
-        if (i !== correctAnswer) {
-            wrongOptions.push(i);
-        }
+    wrongOptions
+        .slice(0, 2)
+        .forEach(index => {
 
-    }
-
-    // Shuffle wrong answers
-    wrongOptions.sort(() => Math.random() - 0.5);
-
-    // Remove two wrong answers
-    const removeThese =
-        wrongOptions.slice(0, 2);
-
-    removeThese.forEach(index => {
-
-        optionButtons[index]
-            .classList.add("option-hidden");
-
-        optionButtons[index].disabled = true;
-
-    });
-
+            optionButtons[index].style.display = "none";
+        });
 });
 
 
-// ==========================================
+// ===============================
 // AUDIENCE POLL
-// ==========================================
+// ===============================
 
 audienceButton.addEventListener("click", () => {
 
-    if (audienceUsed || gameLocked) return;
+    if (usedAudience) return;
 
-    audienceUsed = true;
+    usedAudience = true;
 
-    audienceButton.classList.add("lifeline-used");
+    audienceButton.classList.add("used");
 
-    const correctAnswer =
+    const correct =
         questions[currentQuestion].answer;
 
-    // Generate realistic-looking percentages
-    let percentages = [0, 0, 0, 0];
+    let percentages = [10, 10, 10, 10];
 
-    let correctPercentage =
-        Math.floor(Math.random() * 21) + 55;
+    percentages[correct] = 55;
 
-    percentages[correctAnswer] =
-        correctPercentage;
+    let remaining = 45;
 
-    let remaining =
-        100 - correctPercentage;
+    const others =
+        [0, 1, 2, 3].filter(i => i !== correct);
 
-    let firstWrong =
-        Math.floor(Math.random() * (remaining + 1));
+    others.forEach((index, i) => {
 
-    let secondWrong =
-        Math.floor(Math.random() *
-            (remaining - firstWrong + 1));
+        if (i === others.length - 1) {
 
-    let thirdWrong =
-        remaining - firstWrong - secondWrong;
+            percentages[index] = remaining;
 
-    let wrongIndexes =
-        [0, 1, 2, 3].filter(
-            i => i !== correctAnswer
-        );
+        } else {
 
-    percentages[wrongIndexes[0]] = firstWrong;
-    percentages[wrongIndexes[1]] = secondWrong;
-    percentages[wrongIndexes[2]] = thirdWrong;
+            const value =
+                Math.floor(Math.random() * 15) + 5;
 
-    const overlay = createOverlay();
+            percentages[index] = value;
 
-    overlay.innerHTML = `
+            remaining -= value;
+        }
+    });
 
-        <div class="js-card">
-
-            <h2>👥 Audience Poll</h2>
-
-            <p>
-                The audience has voted!
-            </p>
-
-            <div class="poll-container">
-
-                ${percentages.map((percent, index) => `
-
-                    <div class="poll-item">
-
-                        <div class="poll-percent">
-                            ${percent}%
-                        </div>
-
-                        <div
-                            class="poll-bar"
-                            style="height:${Math.max(percent * 1.5, 20)}px"
-                        ></div>
-
-                        <strong>
-                            ${optionLabels[index]}
-                        </strong>
-
-                    </div>
-
-                `).join("")}
-
-            </div>
-
-            <button class="js-close">
-                Continue
-            </button>
-
-        </div>
-    `;
-
-    document.body.appendChild(overlay);
-
-    overlay.querySelector(".js-close")
-        .addEventListener("click", () => {
-
-            overlay.remove();
-
-        });
-
+    showInfoModal(
+        "📊 Audience Poll",
+        createPollHTML(percentages)
+    );
 });
 
 
-// ==========================================
+// ===============================
+// CREATE POLL HTML
+// ===============================
+
+function createPollHTML(percentages) {
+
+    let html = "";
+
+    percentages.forEach((percentage, index) => {
+
+        html += `
+            <div class="poll-row">
+                <strong>${String.fromCharCode(65 + index)}</strong>
+                <div class="poll-bar">
+                    <div style="width:${percentage}%"></div>
+                </div>
+                <span>${percentage}%</span>
+            </div>
+        `;
+    });
+
+    return html;
+}
+
+
+// ===============================
 // PHONE A FRIEND
-// ==========================================
+// ===============================
 
 phoneButton.addEventListener("click", () => {
 
-    if (phoneUsed || gameLocked) return;
+    if (usedPhone) return;
 
-    phoneUsed = true;
+    usedPhone = true;
 
-    phoneButton.classList.add("lifeline-used");
+    phoneButton.classList.add("used");
 
-    const correctAnswer =
+    const correct =
         questions[currentQuestion].answer;
 
-    const friendAnswers = [
+    const answer =
+        questions[currentQuestion].options[correct];
 
-        `I think the answer is ${optionLabels[correctAnswer]}. I'm quite confident about it!`,
-
-        `Hmm... I'm almost sure it's ${optionLabels[correctAnswer]}.`,
-
-        `Yes, go with ${optionLabels[correctAnswer]}. That's my answer!`
-
-    ];
-
-    const randomAnswer =
-        friendAnswers[
-            Math.floor(Math.random() * friendAnswers.length)
-        ];
-
-    const overlay = createOverlay();
-
-    overlay.innerHTML = `
-
-        <div class="js-card">
-
-            <div class="phone-circle">
-                📞
-            </div>
-
-            <h2>Calling Friend...</h2>
-
-            <p>
-                📱 Connected to your friend
-            </p>
-
-            <p style="
-                margin-top:20px;
-                font-size:18px;
-                color:#ffffff;
-            ">
-                "${randomAnswer}"
-            </p>
-
-            <button class="js-close">
-                End Call
-            </button>
-
-        </div>
-    `;
-
-    document.body.appendChild(overlay);
-
-    overlay.querySelector(".js-close")
-        .addEventListener("click", () => {
-
-            overlay.remove();
-
-        });
-
+    showInfoModal(
+        "📞 Phone a Friend",
+        `
+        <p>📱 Calling your friend...</p>
+        <p>"I think the answer is <strong>${String.fromCharCode(65 + correct)}. ${answer}</strong>."</p>
+        <p>Confidence: 82%</p>
+        `
+    );
 });
 
 
-// ==========================================
-// ASK THE EXPERT
-// ==========================================
+// ===============================
+// ASK EXPERT
+// ===============================
 
 expertButton.addEventListener("click", () => {
 
-    if (expertUsed || gameLocked) return;
+    if (usedExpert) return;
 
-    expertUsed = true;
+    usedExpert = true;
 
-    expertButton.classList.add("lifeline-used");
+    expertButton.classList.add("used");
 
-    const correctAnswer =
+    const correct =
         questions[currentQuestion].answer;
 
-    const confidence =
-        Math.floor(Math.random() * 16) + 80;
+    const answer =
+        questions[currentQuestion].options[correct];
 
-    const overlay = createOverlay();
-
-    overlay.innerHTML = `
-
-        <div class="js-card">
-
-            <div class="expert-avatar">
-                🧠
-            </div>
-
-            <h2>Ask the Expert</h2>
-
-            <p>
-                <strong>Expert's Analysis</strong>
-            </p>
-
-            <p style="
-                font-size:18px;
-                margin-top:15px;
-            ">
-                Based on my knowledge, I believe the
-                correct answer is:
-            </p>
-
-            <p style="
-                color:#55ff9a;
-                font-size:24px;
-                font-weight:900;
-                margin:20px 0;
-            ">
-                ${optionLabels[correctAnswer]}.
-                ${questions[currentQuestion].options[correctAnswer]}
-            </p>
-
-            <p>
-                Confidence Level: ${confidence}%
-            </p>
-
-            <button class="js-close">
-                Continue
-            </button>
-
-        </div>
-    `;
-
-    document.body.appendChild(overlay);
-
-    overlay.querySelector(".js-close")
-        .addEventListener("click", () => {
-
-            overlay.remove();
-
-        });
-
+    showInfoModal(
+        "👨‍🏫 Ask the Expert",
+        `
+        <p>The expert thinks carefully...</p>
+        <p>According to the expert, the most likely answer is:</p>
+        <h3>${String.fromCharCode(65 + correct)}. ${answer}</h3>
+        `
+    );
 });
 
 
-// ==========================================
-// CREATE OVERLAY
-// ==========================================
+// ===============================
+// INFO MODAL
+// ===============================
 
-function createOverlay() {
+function showInfoModal(title, content) {
 
-    const overlay =
+    const existing =
+        document.getElementById("infoModal");
+
+    if (existing) {
+        existing.remove();
+    }
+
+    const modal =
         document.createElement("div");
 
-    overlay.className = "js-overlay";
+    modal.id = "infoModal";
 
-    return overlay;
+    modal.className = "custom-modal";
+
+    modal.innerHTML = `
+        <div class="custom-modal-box">
+            <h2>${title}</h2>
+
+            <div class="info-content">
+                ${content}
+            </div>
+
+            <button id="closeInfoModal">
+                Continue
+            </button>
+        </div>
+    `;
+
+    document.body.appendChild(modal);
+
+    document
+        .getElementById("closeInfoModal")
+        .addEventListener("click", () => {
+
+            modal.remove();
+        });
 }
 
 
-// ==========================================
+// ===============================
 // GAME OVER
-// ==========================================
+// ===============================
 
-function gameOver(amount) {
+function gameOver() {
 
-    clearInterval(timerInterval);
+    clearInterval(timer);
 
-    const overlay = createOverlay();
+    resultModal.style.display = "none";
 
-    overlay.innerHTML = `
+    const gameOverModal =
+        document.createElement("div");
 
-        <div class="js-card winner-screen">
+    gameOverModal.className = "custom-modal";
+
+    gameOverModal.innerHTML = `
+        <div class="custom-modal-box game-over-box">
 
             <h1>Game Over</h1>
 
-            <p>
-                Better luck next time!
-            </p>
+            <h2>💰 You won</h2>
 
-            <div class="winner-money">
-                ${amount}
+            <div class="final-money">
+                ${currentQuestion > 0
+                    ? prizeMoney[currentQuestion - 1]
+                    : "₹0"}
             </div>
 
-            <p>
-                You played really well.
-            </p>
-
-            <button
-                class="restart-btn"
-                id="restartGame"
-            >
+            <button id="restartGame">
                 🔄 Play Again
             </button>
 
         </div>
-
     `;
 
-    document.body.appendChild(overlay);
+    document.body.appendChild(gameOverModal);
 
-    document.getElementById("restartGame")
+    document
+        .getElementById("restartGame")
         .addEventListener("click", () => {
 
             location.reload();
-
         });
-
 }
 
 
-// ==========================================
+// ===============================
 // WINNER SCREEN
-// ==========================================
+// ===============================
 
 function winnerScreen() {
 
-    clearInterval(timerInterval);
+    clearInterval(timer);
 
-    createConfetti();
+    const winnerModal =
+        document.createElement("div");
 
-    const overlay = createOverlay();
+    winnerModal.className = "custom-modal";
 
-    overlay.innerHTML = `
-
-        <div class="js-card winner-screen">
+    winnerModal.innerHTML = `
+        <div class="custom-modal-box winner-box">
 
             <h1>🏆 CONGRATULATIONS! 🏆</h1>
 
-            <p>
-                You have answered all questions correctly!
-            </p>
+            <h2>You completed all 20 questions!</h2>
 
-            <div class="winner-money">
-                ₹10,00,000
+            <div class="final-money">
+                ₹7,00,00,000
             </div>
 
-            <p>
-                You are the KBC Champion! 🎉
-            </p>
+            <p>🎉 You are the ultimate Quiz Champion!</p>
 
-            <button
-                class="restart-btn"
-                id="restartGame"
-            >
+            <button id="restartWinner">
                 🔄 Play Again
             </button>
 
         </div>
-
     `;
 
-    document.body.appendChild(overlay);
+    document.body.appendChild(winnerModal);
 
-    document.getElementById("restartGame")
+    createConfetti();
+
+    document
+        .getElementById("restartWinner")
         .addEventListener("click", () => {
 
             location.reload();
-
         });
-
 }
 
 
-// ==========================================
+// ===============================
 // CONFETTI
-// ==========================================
+// ===============================
 
 function createConfetti() {
 
-    for (let i = 0; i < 100; i++) {
+    for (let i = 0; i < 80; i++) {
 
-        const piece =
+        const confetti =
             document.createElement("div");
 
-        piece.className = "confetti-piece";
+        confetti.className = "confetti";
 
-        piece.style.left =
+        confetti.style.left =
             Math.random() * 100 + "%";
 
-        piece.style.backgroundColor =
-            [
-                "#ffd700",
-                "#00aaff",
-                "#ff3b7a",
-                "#55ff9a",
-                "#b56cff"
-            ][
-                Math.floor(Math.random() * 5)
-            ];
+        confetti.style.animationDelay =
+            Math.random() * 3 + "s";
 
-        piece.style.animationDelay =
-            Math.random() * 2 + "s";
-
-        piece.style.transform =
-            `rotate(${Math.random() * 360}deg)`;
-
-        document.body.appendChild(piece);
+        document.body.appendChild(confetti);
 
         setTimeout(() => {
-
-            piece.remove();
-
-        }, 5000);
-
+            confetti.remove();
+        }, 6000);
     }
-
 }
 
 
-// ==========================================
+// ===============================
 // KEYBOARD SUPPORT
-// A / B / C / D
-// ==========================================
+// ===============================
 
 document.addEventListener("keydown", (event) => {
-
-    if (gameLocked) return;
 
     const key =
         event.key.toUpperCase();
 
-    const keyIndex = {
+    const keyMap = {
         A: 0,
         B: 1,
         C: 2,
         D: 3
     };
 
-    if (keyIndex[key] !== undefined) {
+    if (keyMap[key] !== undefined) {
 
-        const index = keyIndex[key];
+        const index = keyMap[key];
 
-        if (!optionButtons[index].disabled) {
+        if (
+            optionButtons[index].style.display !== "none"
+        ) {
 
             optionButtons[index].click();
-
         }
-
     }
-
 });
 
 
-// ==========================================
-// INITIALIZE GAME
-// ==========================================
+// ===============================
+// EXTRA STYLES
+// ===============================
+
+const extraStyle =
+document.createElement("style");
+
+extraStyle.textContent = `
+
+.custom-modal {
+
+    position: fixed;
+    inset: 0;
+
+    background: rgba(0, 0, 0, 0.85);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    z-index: 9999;
+
+    backdrop-filter: blur(8px);
+}
+
+
+.custom-modal-box {
+
+    width: min(500px, 90%);
+
+    padding: 35px;
+
+    border-radius: 20px;
+
+    text-align: center;
+
+    background: #111827;
+
+    border: 2px solid #38bdf8;
+
+    box-shadow:
+        0 0 30px rgba(56, 189, 248, 0.5);
+}
+
+
+.custom-modal-box h2 {
+
+    margin-bottom: 20px;
+}
+
+
+.custom-modal-box button {
+
+    margin-top: 20px;
+
+    padding: 12px 30px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    font-weight: bold;
+
+}
+
+
+.info-content {
+
+    margin-top: 20px;
+
+    font-size: 18px;
+
+    line-height: 1.6;
+}
+
+
+.poll-row {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    margin: 12px 0;
+}
+
+
+.poll-row strong {
+
+    width: 20px;
+}
+
+
+.poll-bar {
+
+    flex: 1;
+
+    height: 18px;
+
+    background: #374151;
+
+    border-radius: 20px;
+
+    overflow: hidden;
+}
+
+
+.poll-bar div {
+
+    height: 100%;
+
+    background: #38bdf8;
+
+    border-radius: 20px;
+
+    transition: width 1s;
+}
+
+
+.final-money {
+
+    font-size: 36px;
+
+    font-weight: bold;
+
+    margin: 25px 0;
+}
+
+
+.winner-box {
+
+    border-color: gold;
+
+    box-shadow:
+        0 0 50px rgba(255, 215, 0, 0.7);
+}
+
+
+.game-over-box {
+
+    border-color: #ef4444;
+}
+
+
+.confetti {
+
+    position: fixed;
+
+    top: -20px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background: gold;
+
+    z-index: 10000;
+
+    animation: confettiFall 5s linear forwards;
+}
+
+
+@keyframes confettiFall {
+
+    from {
+        transform: translateY(0) rotate(0deg);
+    }
+
+    to {
+        transform: translateY(110vh) rotate(720deg);
+    }
+
+}
+
+`;
+
+document.head.appendChild(extraStyle);
+
+
+// ===============================
+// START GAME
+// ===============================
+
+createMoneyLadder();
 
 loadQuestion();
-
-console.log("🔥 KBC Quiz JavaScript Loaded Successfully!");
